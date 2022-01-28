@@ -1,0 +1,12 @@
+{
+  "clientes": [
+    {
+      "nombre": "Matias Daniel",
+      "empresa": "as",
+      "email": "franco235.mdp@gmail.com",
+      "telefono": "123",
+      "notas": "",
+      "id": 4
+    }
+  ]
+}
