@@ -1,12 +1,28 @@
 {
   "clientes": [
     {
-      "nombre": "Matias Daniel",
-      "empresa": "as",
-      "email": "franco235.mdp@gmail.com",
-      "telefono": "123",
-      "notas": "",
+      "nombre": "Matias",
+      "empresa": "Xzun",
+      "email": "matias33pascual@gmail.com",
+      "telefono": "2235",
+      "notas": "Soy Mat",
       "id": 4
+    },
+    {
+      "nombre": "recursos humanos",
+      "empresa": "Xzun",
+      "email": "matias33pascual@gmail.com",
+      "telefono": "",
+      "notas": "",
+      "id": 5
+    },
+    {
+      "nombre": "Matias Daniel",
+      "empresa": "Xzun",
+      "email": "matias33pascual@gmail.com",
+      "telefono": "",
+      "notas": "",
+      "id": 6
     }
   ]
 }
