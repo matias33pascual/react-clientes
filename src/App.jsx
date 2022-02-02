@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { BrowserRouter, Routes, Route, Navigate } from "react-router-dom";
 import Layout from "./layout/Layout";
 import Inicio from "./paginas/Inicio";
 import NuevoCliente from "./paginas/NuevoCliente";
@@ -10,6 +10,7 @@ function App() {
     return (
         <BrowserRouter>
             <Routes>
+                <Route path='*' element={<Navigate to='/clientes' />} />
                 {/* layout es el master page */}
                 <Route path='/clientes' element={<Layout />}>
                     <Route index element={<Inicio />} />
